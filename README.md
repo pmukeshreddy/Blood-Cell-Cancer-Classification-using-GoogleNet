@@ -12,15 +12,8 @@ Convolutional layers for feature extraction
 Inception modules to capture multi-scale features
 Global Average Pooling to reduce the number of parameters
 Softmax layer for multi-class classification
-Requirements
-To run this project, you will need:
 
-Python 3.x
-PyTorch
-Torchvision
-NumPy
-Matplotlib
-Jupyter Notebook (optional, but recommended for running the notebook files)
+
 Training and Evaluation
 The model is trained using categorical cross-entropy loss and the Adam optimizer. The notebook provides evaluation metrics like accuracy, precision, recall, and F1-score. A confusion matrix is generated to assess the performance across different classes.
 
